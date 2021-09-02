@@ -108,6 +108,7 @@ html::-webkit-scrollbar-thumb {
   transform: rotate(-40deg);
 }
 .nav-list {
+  padding-top: 10rem;
   height: 100%;
   display: flex;
 }
