@@ -864,7 +864,8 @@ html::-webkit-scrollbar-thumb {
 }
 @media (max-height: 500px) {
 .heading {
-  margin-top: 10rem;
+  font-size: 5rem;
+  margin-top: 5rem;
 }
 .header-paragraph {
   display: none;
