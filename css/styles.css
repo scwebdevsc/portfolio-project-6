@@ -108,7 +108,6 @@ html::-webkit-scrollbar-thumb {
   transform: rotate(-40deg);
 }
 .nav-list {
-  padding-top: 10rem;
   height: 100%;
   display: flex;
 }
@@ -812,8 +811,18 @@ html::-webkit-scrollbar-thumb {
     padding: 4px;
     width: 100%;
   }
+  .stories {
+    padding: 5rem 0;
+  }
 }
 @media (max-width: 520px) {
+.popular-tours-heading {
+  font-size: 4rem; 
+  margin-bottom: 2rem;
+}
+.popular-tours {
+  padding: 4rem 0 2rem 0;
+}
 .logo {
   top: 12rem;
   right: 0;
@@ -822,10 +831,22 @@ html::-webkit-scrollbar-thumb {
 .logo h1 {
   justify-content: center;
   }
+.contact-heading {
+  font-size: 5rem;
+  }
+}
+@media (max-width: 420px) {
+  .popular-tours-heading {
+    font-size: 3rem; 
+  }
+  .contact-heading {
+    font-size: 4.5rem;
+    }
+
 }
 @media (max-width: 400px) {
   .logo h1 span {
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 3rem;
     height: 3rem;
   }
