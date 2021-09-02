@@ -862,3 +862,11 @@ html::-webkit-scrollbar-thumb {
     width: 100%;
   }
 }
+@media (max-height: 500px) {
+.heading {
+  margin-top: 10rem;
+}
+.header-paragraph {
+  display: none;
+  }
+}
