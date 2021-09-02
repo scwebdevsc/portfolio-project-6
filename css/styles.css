@@ -719,6 +719,10 @@ html::-webkit-scrollbar-thumb {
   .story-bg {
     width: 85%;
   }
+  .header-image {
+    width: 50%;
+    animation: image-float 10s infinite;
+  }
 }
 @media (max-width: 1000px) {
   .nav-list {
@@ -814,6 +818,10 @@ html::-webkit-scrollbar-thumb {
   .stories {
     padding: 5rem 0;
   }
+  .header-image {
+    width: 65%;
+    animation: image-float 7s infinite;
+  }
 }
 @media (max-width: 520px) {
 .popular-tours-heading {
@@ -849,5 +857,8 @@ html::-webkit-scrollbar-thumb {
     font-size: 2rem;
     width: 3rem;
     height: 3rem;
+  }
+  .story-bg {
+    width: 100%;
   }
 }
