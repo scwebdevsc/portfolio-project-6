@@ -842,6 +842,9 @@ html::-webkit-scrollbar-thumb {
 .contact-heading {
   font-size: 5rem;
   }
+  .gallery {
+    margin-top: 4rem;
+  }
 }
 @media (max-width: 420px) {
   .popular-tours-heading {
@@ -849,7 +852,7 @@ html::-webkit-scrollbar-thumb {
   }
   .contact-heading {
     font-size: 4.5rem;
-    }
+  }
 
 }
 @media (max-width: 400px) {
